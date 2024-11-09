@@ -1,0 +1,28 @@
+#new-food-log {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+
+    button[type="submit"] {
+        padding: 5px 10px;
+    }
+}
+
+#check-group {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    #new-food-log {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+
+        margin-left: 20px;
+    }
+}
